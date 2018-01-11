@@ -1,7 +1,8 @@
 import React from 'react'
-import { bold, space, colors } from './styles'
+import { space, colors } from './styles'
 
 const Button = ({
+  bold,
   ...props
 }) => {
   const sx = {
